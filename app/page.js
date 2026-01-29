@@ -22,6 +22,7 @@ const Home = () => {
           productList.map((item) => (
             <div key={item.id} className="rounded-xl">
               <CardImage
+                id={item.id}
                 title={item.title}
                 description={item.description}
                 category={item.category}
